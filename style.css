@@ -14,3 +14,10 @@ form{
 input{
     margin: 12px;
 }
+#name_error, #email_error{
+    
+    display: none;
+}
+span{
+    color: red;
+}
