@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    border: 1px solid black;
+    padding: 23px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+input{
+    margin: 12px;
+}
