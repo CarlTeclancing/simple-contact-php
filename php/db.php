@@ -1,6 +1,5 @@
 <?php
-
-if($_SERVER["REQUEST_METHOD"]==  "POST"){
+if($_SERVER["REQUEST_METHOD"] ==  "POST"){
 
     //getting data from the input fields
     $name = $_POST['name'];
@@ -9,7 +8,6 @@ if($_SERVER["REQUEST_METHOD"]==  "POST"){
 
 
     //connect to the database
-
     $host = "localhost";
     $user = "root";
     $pass = "";
